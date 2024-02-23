@@ -20,3 +20,5 @@ Run this to get AWS ips:
 #I had to look up where to get the IP json, the class link didn't work
 
 curl -s https://ip-ranges.amazonaws.com/ip-ranges.json | jq -r '.prefixes[].ip_prefix' > AWS.txt
+
+test
